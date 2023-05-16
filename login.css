@@ -1,0 +1,89 @@
+body {
+    min-height: 10000px;
+    background-image: url("https://wallpaperaccess.com/full/254367.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    overflow-y: visible;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+  position: fixed;
+  top: 0.5;
+  background-color: black;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: navy;
+  color: white;
+}
+
+ul li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.bottomnav {
+    overflow: hidden;
+    background-color: rgba(25, 25, 112, 0.5);
+    bottom: 0;
+    width: 100%;
+}
+
+.bottomnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px
+}
+
+.bottomnav a:hover {
+  background-color: midnightblue;
+  color: whitesmoke;
+}
+
+.bottomnav a.active {
+  background-color: midnightblue;
+  color: whitesmoke;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 20px 0;
+}
+
+tbody {
+    width: 800px;
+    position: relative;
+    align-items: stretch;
+    border: 1px solid black;
+    
+  }
+
+  tr {
+    flex-basis: 33.33333333%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 5px 10px;
+   
+    
+  }
